@@ -1,0 +1,21 @@
+body {
+    background-color: #333; /* Dark grey background, similar to dark mode */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height to center vertically */
+}
+
+.logo {
+    width: 200px; /* Adjust the size as needed */
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
